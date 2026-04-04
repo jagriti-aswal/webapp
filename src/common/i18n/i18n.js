@@ -1,6 +1,18 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
+import enCollaborator from "./locales/en/collaborator.json";
+import deCollaborator from "./locales/de/collaborator.json";
+import esCollaborator from "./locales/es/collaborator.json";
+import frCollaborator from "./locales/fr/collaborator.json";
+import ruCollaborator from "./locales/ru/collaborator.json";
+import teCollaborator from "./locales/te/collaborator.json";
+import zhCollaborator from "./locales/zh/collaborator.json";
+import ptCollaborator from "./locales/pt/collaborator.json";
+import bnCollaborator from "./locales/bn/collaborator.json";
+import arCollaborator from "./locales/ar/collaborator.json";
+import urCollaborator from "./locales/ur/collaborator.json";
+import hiCollaborator from "./locales/hi/collaborator.json";
 
 //import arTranslation from './locales/ar_SA.json';
 //import asTranslation from './locales/as_IN.json';
@@ -41,16 +53,18 @@ i18n
   .init({
     fallbackLng: "en",
     resources: {
-      bn: { translation: bnTranslation },
-      de: { translation: deTranslation },
-      en: { translation: enTranslation },
-      es: { translation: esTranslation },
-      fr: { translation: frTranslation },
-      hi: { translation: hiTranslation },
-      pt: { translation: ptTranslation },
-      ru: { translation: ruTranslation },
-      te: { translation: teTranslation },
-      zh: { translation: zhTranslation },
+      bn: { translation: bnTranslation, collaborator: bnCollaborator },
+      de: { translation: deTranslation, collaborator: deCollaborator },
+      en: { translation: enTranslation, collaborator: enCollaborator },
+      es: { translation: esTranslation, collaborator: esCollaborator },
+      fr: { translation: frTranslation, collaborator: frCollaborator },
+      hi: { translation: hiTranslation, collaborator: hiCollaborator },
+      pt: { translation: ptTranslation, collaborator: ptCollaborator },
+      ru: { translation: ruTranslation, collaborator: ruCollaborator },
+      te: { translation: teTranslation, collaborator: teCollaborator },
+      zh: { translation: zhTranslation, collaborator: zhCollaborator },
+      ar: { collaborator: arCollaborator },
+      as: { collaborator: urCollaborator },
     },
     detection: {
       order: [
