@@ -1,7 +1,7 @@
 import Rashmi_Bilaskar from "../../../assets/images/Rashmi Bilaskar.jpeg";
-
 import Sunandha_agarwal from "../../../assets/images/Sunandha_agarwal.jpg";
 import Tejaswi_Vadapalli from "../../../assets/images/Tejaswi_Vadaplli.jpeg";
+import Aakash_Gangji from "../../../assets/images/Aakash_Gangji.jpg";
 
 const ExecutiveTeamData = [
   {
@@ -56,6 +56,12 @@ const ExecutiveTeamData = [
     name: "Tejaswi Vadapalli",
     role: "Program and Operations Lead",
     linkedin: "https://www.linkedin.com/in/sritejaswi/",
+  },
+  {
+    image: Aakash_Gangji,
+    name: "Aakash Gangji",
+    role: "Lead AI/ML Developer/Engineer",
+    linkedin: "https://www.linkedin.com/in/aakashgangji/",
   },
   // {
   //   image: "https://cdn.builder.io/api/v1/image/assets/TEMP/b6c938fe9f544ef0dacab7bd69eaca9a1a890fdb",
